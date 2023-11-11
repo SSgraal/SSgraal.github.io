@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Student ID</title>
+        <script defer src="index.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Login form</h1>
+        <div id="error"></div>
+        <form action="/studentDet.html" method="GET" id="form" class="form">
+            <div class ="Name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <hr>
+            <div class="Password">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <hr>
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
